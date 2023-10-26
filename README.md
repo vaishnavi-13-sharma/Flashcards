@@ -24,7 +24,7 @@ pip install Flask Flask-SQLAlchemy
 ```
 
 
-##Getting Started
+## Getting Started
 1. Clone this repository to your local machine.
 ```
 git clone https://github.com/yourusername/flashcard-app.git
@@ -55,9 +55,9 @@ python app.py
 The application will be running at http://localhost:5000. You can access it through your web browser or use a tool like Postman to send HTTP requests to the API endpoints.
 
 
-##API Endpoints
+## API Endpoints
 
-###Add a New Flashcard
+### Add a New Flashcard
 - **URL**: /ques
 - **Method**: POST
 - **Request Body**:
@@ -68,16 +68,16 @@ The application will be running at http://localhost:5000. You can access it thro
 }
 ```
 
-###Read All Flashcards
+### Read All Flashcards
 - **URL**: /ques
 - **Method**: GET
 - **Response Body**: An array of flashcards, each containing an ID, a question (ques), and an answer (ans).
 
-###Update a Flashcard
+### Update a Flashcard
 - **URL**: /ques/{id}
 - **Method**: PUT
 - **Request Body**: Include the fields you want to update (e.g., "ques" or "ans").
 
-###Delete a Flashcard
+### Delete a Flashcard
 - **URL**: /ques/{id}
 - **Method**: DELETE
